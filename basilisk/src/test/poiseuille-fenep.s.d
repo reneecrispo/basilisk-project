@@ -1,0 +1,27 @@
+poiseuille-fenep.s:	\
+	/root/basilisk-project/basilisk/src/grid/multigrid.h \
+	/root/basilisk-project/basilisk/src/navier-stokes/centered.h \
+	/root/basilisk-project/basilisk/src/fene-p.h \
+	/root/basilisk-project/basilisk/src/log-conform.h \
+	/root/basilisk-project/basilisk/src/bcg.h \
+	/root/basilisk-project/basilisk/src/log-conform.h \
+	/root/basilisk-project/basilisk/src/run.h \
+	/root/basilisk-project/basilisk/src/timestep.h \
+	/root/basilisk-project/basilisk/src/bcg.h \
+	/root/basilisk-project/basilisk/src/viscosity-embed.h \
+	/root/basilisk-project/basilisk/src/viscosity.h \
+	/root/basilisk-project/basilisk/src/poisson.h \
+	/root/basilisk-project/basilisk/src/poisson.h \
+	/root/basilisk-project/basilisk/src/utils.h \
+	/root/basilisk-project/basilisk/src/output.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/output.h \
+	/root/basilisk-project/basilisk/src/grid/foreach_cell.h \
+	/root/basilisk-project/basilisk/src/grid/neighbors.h \
+	/root/basilisk-project/basilisk/src/grid/multigrid-common.h \
+	/root/basilisk-project/basilisk/src/grid/multigrid-mpi.h \
+	/root/basilisk-project/basilisk/src/grid/cartesian-common.h \
+	/root/basilisk-project/basilisk/src/grid/events.h \
+	/root/basilisk-project/basilisk/src/grid/fpe.h \
+	/root/basilisk-project/basilisk/src/khash.h \
+	/root/basilisk-project/basilisk/src/common.h \
+

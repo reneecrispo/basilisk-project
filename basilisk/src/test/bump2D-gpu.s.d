@@ -1,0 +1,23 @@
+bump2D-gpu.s:	\
+	/root/basilisk-project/basilisk/src/grid/gpu/cartesian.h \
+	/root/basilisk-project/basilisk/src/saint-venant.h \
+	/root/basilisk-project/basilisk/src/multilayer.h \
+	/root/basilisk-project/basilisk/src/predictor-corrector.h \
+	/root/basilisk-project/basilisk/src/riemann.h \
+	/root/basilisk-project/basilisk/src/elevation.h \
+	/root/basilisk-project/basilisk/src/gauges.h \
+	/root/basilisk-project/basilisk/src/utils.h \
+	/root/basilisk-project/basilisk/src/output.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/output.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../cartesian.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/gpu.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../cartesian-common.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/grid.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/reduction.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../events.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../fpe.h \
+	/root/basilisk-project/basilisk/src/khash.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../neighbors.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../cartesian-common.h \
+	/root/basilisk-project/basilisk/src/common.h \
+

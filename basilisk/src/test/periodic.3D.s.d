@@ -1,0 +1,21 @@
+periodic.3D.s:	\
+	/root/basilisk-project/basilisk/src/poisson.h \
+	/root/basilisk-project/basilisk/src/utils.h \
+	/root/basilisk-project/basilisk/src/output.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/output.h \
+	/root/basilisk-project/basilisk/src/grid/octree.h \
+	/root/basilisk-project/basilisk/src/grid/tree.h \
+	/root/basilisk-project/basilisk/src/grid/mempool.h \
+	/root/basilisk-project/basilisk/src/grid/memindex/range.h \
+	/root/basilisk-project/basilisk/src/grid/foreach_cell.h \
+	/root/basilisk-project/basilisk/src/grid/neighbors.h \
+	/root/basilisk-project/basilisk/src/grid/tree-common.h \
+	/root/basilisk-project/basilisk/src/grid/tree-mpi.h \
+	/root/basilisk-project/basilisk/src/grid/balance.h \
+	/root/basilisk-project/basilisk/src/grid/multigrid-common.h \
+	/root/basilisk-project/basilisk/src/grid/cartesian-common.h \
+	/root/basilisk-project/basilisk/src/grid/events.h \
+	/root/basilisk-project/basilisk/src/grid/fpe.h \
+	/root/basilisk-project/basilisk/src/khash.h \
+	/root/basilisk-project/basilisk/src/common.h \
+

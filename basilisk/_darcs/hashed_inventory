@@ -1,0 +1,376 @@
+pristine:c627341fd55e7d617754e20f29c765e07afbcd7383f2b00609ec62417d0e0c2f
+Starting with inventory:
+0000012417-b82e1ceea931303978f96170ec642e1db31d6f8c29e692769507fb51f03b50d4
+[TAG release 24-10-08
+Stephane Popinet <popinet@basilisk.fr>**20241019174539
+ Ignore-this: 93be61164476a208afacad98971d64ab
+] 
+hash: 0000008100-c3ec0c0ff606a213ef2b2020c1ea571799e4d12dcb3b195f598fcbb8fea11267
+[Advection test on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240314150002
+ Ignore-this: 711ada26361a1bee2ca822bda4267d9f
+] 
+hash: 0000003234-ed24104805ff0083e094030f15498f9ae0045dbf3238f4dd56015bc576e264a3
+[Tests reductions on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240314150639
+ Ignore-this: 5282d9972f29f99dce4e6779a4f938fc
+] 
+hash: 0000001341-82d0cc8bb91cdcbd3865c0bd0f010a95801697bb1c1c3939a97186320d3c0530
+[GPU libraries
+Stephane Popinet <popinet@basilisk.fr>**20240314153747
+ Ignore-this: d15fcd5fb17ccd80434057ab8e878b7c
+] 
+hash: 0000458465-4c84aa5aff42f22f2ac2c1024fa36ba81e975eb31c26528afc507e69f49a7a84
+[Force creation of symbolic links
+Stephane Popinet <popinet@basilisk.fr>**20240314162658
+ Ignore-this: bc6d00791c72100fba3ebf1ba13fb7e5
+] 
+hash: 0000007207-be43b1293e7c1a6542931039d074e0c4f5e45c6c6d3aa8ff4ac2deee421b33ef
+[GPU tests
+Stephane Popinet <popinet@basilisk.fr>**20240314180535
+ Ignore-this: d9e899eb925b0d700c608c04a2178d86
+] 
+hash: 0000043944-3b93f06b1fa370e1f2241d3d8ed3639e16d071986ffc0d774aa9a1352a0bc35a
+[Cartesian grid on GPU
+Stephane Popinet <popinet@basilisk.fr>**20240315065316
+ Ignore-this: 2c4f6855c25e67a1924b9058efe3b30
+] 
+hash: 0000046756-35e321043a74999eb61249caa7f1c6f8b1c5e6a60eac1ef38ddce0c614bc9753
+[terrain() can work on grid/cartesian.h
+Stephane Popinet <popinet@basilisk.fr>**20240315081741
+ Ignore-this: 2bacfc1ebef5f1ab293772cec1979c43
+] 
+hash: 0000001005-cbe7bd2034b96b50df4cbf5539e66d35c8436935db1a4909267dff781c0fcbd9
+[Cartesian grids on GPU use only "scalar textures"
+Stephane Popinet <popinet@basilisk.fr>**20240316142122
+ Ignore-this: ae6ee96b8d63620c284f9082a57781c6
+] 
+hash: 0000020624-176d1c3e6e78fa2940d136dc1d04c41f14ddb964b17c6e407cb910da41e4a30b
+[Back to a single field (scalar, vector or tensor) per texture
+Stephane Popinet <popinet@basilisk.fr>**20240316153557
+ Ignore-this: 10a3fa371d8187ded81e69548a233d7b
+ 
+ This is at least twice as fast as the "pack scalars into textures" approach.
+] 
+hash: 0000019293-12c41dd1fcb79f273a9769cf880ad3bf20b1e81b614e37fac0424f1c776dd05a
+[Output PPM on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240317172904
+ Ignore-this: 8ea4dd9b077e9fe199a77d6066f8158c
+] 
+hash: 0000005906-8eeecab96d924b6ffbec90a8a46c7a3a2014585aa48719fe58248ec8116fe2bc
+[Minor adaptations of the solvers for GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240317172922
+ Ignore-this: ff6d0b57b00449de6899486591713fef
+] 
+hash: 0000004078-77510e99433cd3ecd1f21e5c10295f424f1ff29eb8089cff6561b0e09d4b8c49
+[Postfix initializers and type casting for GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240317173514
+ Ignore-this: c0480f4bb214b684a47add56191b81af
+] 
+hash: 0000007877-e5b06814ffe3343d794e001b83409931b082b1b56bdecd02f8ec9cbc2cb05735
+[Better symbolic links in test Makefile
+Stephane Popinet <popinet@basilisk.fr>**20240317175015
+ Ignore-this: 478ab1fb2f27ce70495c77c22b42cd22
+] 
+hash: 0000001862-d3307d70e47b254b0441272b466251db20fb1574c5a6aa6ae990ec1ca4fc58f3
+[foreach_point() on GPU
+Stephane Popinet <popinet@basilisk.fr>**20240318180030
+ Ignore-this: 48055e15f87d4e0e05615bedcc1f863e
+] 
+hash: 0000008025-127858671a438e3b90e087b5905dbe4da74617b8e186123053b30d666c27e1f1
+[Array interpolation on GPU
+Stephane Popinet <popinet@basilisk.fr>**20240320165610
+ Ignore-this: 8f6f51e45332e46f67f6d1c18ba2bcc8
+] 
+hash: 0000002073-1cc98bbd0d035ed3b8047a65c4a3ba7aaeb6332648b2530bb4c5cf9c733494af
+[Warning and errors are displayed at runtime
+Stephane Popinet <popinet@basilisk.fr>**20240320165658
+ Ignore-this: 92e848935fcb548e5d33c10b535bb97b
+] 
+hash: 0000000586-08e2e191ab357c44a3021335b5408615fc53db59c63b1fec4f8fd4faa8ea7152
+[Tsunami example works on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240321162048
+ Ignore-this: 160aa110b9d60126d4a17066f10a4ca3
+] 
+hash: 0000008118-a7e6670a3dec866437a33b60592169901aa99ff6956a81a393c2963625c50f19
+[Box/region for output_ppm() on GPU
+Stephane Popinet <popinet@basilisk.fr>**20240321162126
+ Ignore-this: 618857d1045973e414dd3b6013b652c8
+] 
+hash: 0000004886-7b882aa13a5aabbb5d4a32a503a37853e152e7c373b3f5fdec5eee5df10d6382
+[Moved GPU grid to grid/gpu/cartesian.h
+Stephane Popinet <popinet@basilisk.fr>**20240321170323
+ Ignore-this: 2c4bd93a88e29235aa7e437559be5beb
+] 
+hash: 0000009165-abddecbaeb1f80045972da47a929334cef3a3844d6d39b60c35c8ece0a055eaa
+[GPU is now compatible with OpenMP
+Stephane Popinet <popinet@basilisk.fr>**20240322105108
+ Ignore-this: 8b837d518fca7ca1c80d347d9a236c01
+] 
+hash: 0000002107-b11c68e15803d3326ba8aab4edf25384f2f23ec7389a413d03a86b3d3ac1b9bb
+[Const combinations are not applied to GPU kernel for point functions
+Stephane Popinet <popinet@basilisk.fr>**20240323181112
+ Ignore-this: 7c735c68065059a76d156d36086dd695
+] 
+hash: 0000007881-a8d311d4cc64ebe818f36f9fa5804ab53a410b557b9d33701cb9a6b09e323d05
+[Scalar attributes on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240326164222
+ Ignore-this: d72a02f5a4669afb2fd76a96d047c9e9
+] 
+hash: 0000020575-2ab9676c058720ab25dd620e271de00ca9688df894db35f935838321572efd54
+[Reversed VOF advection test case works on GPU
+Stephane Popinet <popinet@basilisk.fr>**20240403182925
+ Ignore-this: 30e7c97e588c997672545cee7827cccc
+] 
+hash: 0000003952-5b45d390111ec1d6f9c59f22efa36689bdecf5f389fd176d8f117cc120a7d5d9
+[Updated references
+Stephane Popinet <popinet@basilisk.fr>**20240406110234
+ Ignore-this: ce77a68fdae5e4c7df658c823c4f122e
+] 
+hash: 0000073841-3ae5eb72e08b25701176413ef3dac29ea51e2cb7a6af83923603dae20979803e
+[Function pointers on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240406110353
+ Ignore-this: 33b439f585c57f3688644a453d5614fb
+] 
+hash: 0000155399-b676fe628a500b7bec2100470e0d39420276b2311737a56bb4ddfc08dd31c0c7
+[Dirty fix for fixed size arrays on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240412171042
+ Ignore-this: 3f305c7ac0e37c9ac77d2381862d56bb
+] 
+hash: 0000000913-dab4aa8bee04d261ccd9d1f405d7f26da6e731c8a604cc9e3d4ea67fb2ac15f6
+[Implicit type casting on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240413161515
+ Ignore-this: ec8978d156dc16e360e561f3881a0133
+] 
+hash: 0000007845-2c3f22961df7b04b8552501949b6d072c3f6fa3fc2bb3e215dc8c3e12b90ee0f
+[Correct coordinates for foreach_vertex() on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240414151757
+ Ignore-this: 86d1919e27f8b49db6dd839315bce917
+] 
+hash: 0000003645-1cc4437dbd3d7eecb7c79080401582b633329993dadf9c41e6cb75e198515196
+[Compute shader GPU version
+Stephane Popinet <popinet@basilisk.fr>**20240430151328
+ Ignore-this: e33f4412581ddf50d397593bd60ea290
+] 
+hash: 0000025421-b53f2acb6e4753ce6b77cf6a1ee79b00985f5fdd4c60285dd11e41d2939e13a9
+[A new 'real' type should allow to switch between double and float for fields
+Stephane Popinet <popinet@basilisk.fr>**20240430173624
+ Ignore-this: dcb8d2b8a1a47c65db72e0efaaeefb04
+ 
+ Only used for Cartesian grids on GPUs for now.
+] 
+hash: 0000006474-7765fc46882b2447cb4935a2c8d7fec17577776dc7824b9644800803df143f64
+[Updated references
+Stephane Popinet <popinet@basilisk.fr>**20240430181826
+ Ignore-this: b4246a0e628ec640502ab99a423a7e7d
+] 
+hash: 0000079688-46a734844dccf5e293761b1d0117db03b88384e52fd5a1dce3f43601ddb0ca35
+[Boundary ghost cells on GPU
+Stephane Popinet <popinet@basilisk.fr>**20240523160813
+ Ignore-this: dd41808c6195a489112ea5f48aaffbe5
+] 
+hash: 0000022561-7d6b546ee80179df4265a941179d6e93045cf8f5ae2df6a24e39dd1aeaef29be
+[Cartesian GPU uses Shared Storage Buffer Object
+Stephane Popinet <popinet@basilisk.fr>**20240602100949
+ Ignore-this: c67d0e8a991191b8ba6ccc8d05b4ddbc
+] 
+hash: 0000120177-b9b611f764ac8f6f14feb2e6864a0b0e8d2147f59bc614286d2654b4e806f9fd
+[Face and vertex reductions on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240603090315
+ Ignore-this: df87fce6966a4e47f6d86f1741272bd6
+] 
+hash: 0000011805-91d9694da9b0949f85cc4a243fc71d9c1f4c940507680ad341bb2157e765b0dd
+[CPU code is not generated for loops which must be run on the GPU
+Stephane Popinet <popinet@basilisk.fr>**20240606065600
+ Ignore-this: d67e65e7cb0668f9954bb344c073a93d
+] 
+hash: 0000002647-eae4eeca80ab4ca4dc4b4c7c14030639cb526f91d7aa2a167ef758798fc3c823
+[OutputPPM linear interpolation on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240606070227
+ Ignore-this: 64c4c9fef8999854cdfe54826d26643e
+] 
+hash: 0000035034-fe64f12050ee8c18c4bfb0626a5bca49aceb1338bc2a90af75570e315efe4ea0
+[Kernels can do implicit type casting for function calls
+Stephane Popinet <popinet@basilisk.fr>**20240626154219
+ Ignore-this: 62f635c2e2837ec74e4e7bd42e4fb6e2
+] 
+hash: 0000001155-52075b9d9536963367ccdff953d8fbad65a6511e4071f5bc64e785a8402a7ca7
+[Updated reference dimensions
+Stephane Popinet <popinet@basilisk.fr>**20240628141525
+ Ignore-this: 5fa6e49fc718f275ba485dab6b8d726c
+] 
+hash: 0000061005-6e8df3027a584097154646f2e157af30de6caf228c25eaaf7ae29bddeb404204
+[Flexible boundary conditions on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240629165611
+ Ignore-this: df296a3023f4e3c20db00df1cd905f42
+] 
+hash: 0000061674-b1b415c0a41b98edda81a0e5bdb71e8c29c848ecaccb6b0a37e8e662cc2c2b49
+[(Mono)-layer support on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240630170807
+ Ignore-this: bc3c0a440721bb39d38a1a786a8fac9b
+] 
+hash: 0000003200-f5a965eadc24d73e916a20db986c918a4571db2b2355cc0753e88c6cc9e60613
+[Link to no-coalescence.h
+Stephane Popinet <popinet@basilisk.fr>**20240711091337
+ Ignore-this: 1d3122bad70e664d6db760af680dc34f
+] 
+hash: 0000000213-2df264f98466ce36377830504fa9fe0585c87fa13839faf8345ac15a7819d0d8
+[Multigrid on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240913094750
+ Ignore-this: 499f4ad0f28daf8c86715258bcab700
+] 
+hash: 0000123357-df5798cda99e9be9b3c30d536bc1515d58e81d7a37bb0266418f3b5f5bee77c5
+[Improved shader hashing
+Stephane Popinet <popinet@basilisk.fr>**20240915164322
+ Ignore-this: d438a63fb82a4d5104537f31fa88a9ad
+] 
+hash: 0000005070-1acc8a1bc0df3a12037878c9a30efbf230a7cdb6e86c153fc544acfedcd7eb3d
+[Boundary conditions are done within loops on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240918081034
+ Ignore-this: 4e28e414bfd5eda9a5844e7f2da3678b
+] 
+hash: 0000005218-875e8ff8fde90385311ee55f65ed5ba560ed047b229bf69d0819cb4653f73743
+[Shader optimisations
+Stephane Popinet <popinet@basilisk.fr>**20240919120641
+ Ignore-this: 33cfc177fd7ee731e4f23a0caa6370bc
+] 
+hash: 0000017560-e4a1fa23cdba2ce87018b16aff39d5d140485ac3ff493d8db4324b37b2160763
+[GPUs apply boundary conditions within the kernel
+Stephane Popinet <popinet@basilisk.fr>**20240923155816
+ Ignore-this: 5944b26b46442a8e16cafeec5f4800ce
+] 
+hash: 0000060165-1f0965c28959f880c0f5cb72199fd1ec949f9a01af8cce1369be66890ef241b6
+[Stencils are also generated for foreach_level() etc.
+Stephane Popinet <popinet@basilisk.fr>**20240923173653
+ Ignore-this: 3b20f9f11e05b812bdd63d464e4fa665
+] 
+hash: 0000005121-6ed5790db9ceacbd68d26874091b6f02d38ff289493b743ad074112266943af7
+[Multigrid is re-implemented using a single memory buffer
+Stephane Popinet <popinet@basilisk.fr>**20240923173754
+ Ignore-this: ad31babdf7eed10271ce8c5ce30c6050
+ 
+ This is for compatibility with the GPU implementation
+] 
+hash: 0000015441-3690af75d003c14833379c180fa199cd3f8368516b89bdfe1bb4520dd3c066d8
+[Support for double precision (64-bits floats) on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20240925154456
+ Ignore-this: 8d3013091d626d370c1f4aa9671fd0b3
+] 
+hash: 0000006523-c419346f31e0542db4d12b504a353aa6cb67d821b5072a8f7b579c14f06f0636
+[Face boundary conditions on GPU
+Stephane Popinet <popinet@basilisk.fr>**20241001142310
+ Ignore-this: 47ed95ca03544354732dfd0e552b4008
+] 
+hash: 0000033796-ebb377b9de16dad22434ca05e8064a64bed0312ea43ec4feecbd136c00a4fede
+[Gauss-Seidel relaxation for viscosity and associated axi.c GPU test case
+Stephane Popinet <popinet@basilisk.fr>**20241001153755
+ Ignore-this: b43d8114504ae3097b5f1edb36beda85
+] 
+hash: 0000004479-b23ae04c2a65df770452f121b9c44080b12d99d4e5032511f431c6f49482cd7d
+[GPU supports "conflicting" local and global variables
+Stephane Popinet <popinet@basilisk.fr>**20241003080011
+ Ignore-this: 7419e6c13135255b68a77e8514e52aad
+] 
+hash: 0000004519-c4b0fd7a9d8db5a15216721ff99377851a4cd15d7fb571a6918eabe934c057ca
+[Lid-driven cavity on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20241003080400
+ Ignore-this: f6bbf3b139bfe8bd55872722b38d0f4c
+] 
+hash: 0000068965-fcecc5607fc6a714aedbcdebc7929f94ecaad76009d1a7733328eef60baf0220
+[Optimisation of boundary conditions on GPU
+Stephane Popinet <popinet@basilisk.fr>**20241004142714
+ Ignore-this: d4275018f341cfbf7606f655591dc936
+] 
+hash: 0000010988-0a04a7ffb799d0eb49c48ddae1813b39107ff78a61c770bc9db47e2a4227eea0
+[Reference types use integer symbols rather than name strings
+Stephane Popinet <popinet@basilisk.fr>**20241006161608
+ Ignore-this: 4c826100a08c049bb41bcc0276ac842e
+] 
+hash: 0000032988-20e9808b2bb05fcfd5c4b6ff4b0b5f8ca90262327d7426ad1e51f57747369fd5
+[Fix for synchronisation of compute shader and fragment shader on Intel driver
+Stephane Popinet <popinet@basilisk.fr>**20241006171118
+ Ignore-this: ce622ed16631a1a724b4c06880404120
+] 
+hash: 0000000852-25a8b80395d3a4ef16185385c506f4d1f4716a90b22d67d5db58980792c2890c
+[Improved type casting in kernels
+Stephane Popinet <popinet@basilisk.fr>**20241007094410
+ Ignore-this: d6731af7663690e2a7b7fd37cb8829b2
+] 
+hash: 0000003906-228f165364d3da4a0c0bc1d9e9b3e8249a3523db4e55b87331c29534f092640a
+[output_ppm() needs synchronization on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20241007141413
+ Ignore-this: 364747d070e95624cceae241b6dcb46c
+] 
+hash: 0000000473-2a0b5100ecc0c724ed8b65ac4f22ee9dca1cd6c6143a10ae2405ed2fb074b415
+[Static declarations for (GPU) stencils
+Stephane Popinet <popinet@basilisk.fr>**20241008132856
+ Ignore-this: d550b70ae273b935acb19e89475fbd
+] 
+hash: 0000006804-3aebd3ab3523ee3865947dc97a368261e352f953c15bf2c12ff66423ea140d96
+[Better convert/ffmpeg warnings
+Stephane Popinet <popinet@basilisk.fr>**20241018140833
+ Ignore-this: 796f9366f627e3db237066127538c30c
+] 
+hash: 0000000645-6c7fd08c7c0040c9b70786031c55cf8277bd252de60f2462c218dcc2c9f25a4e
+[Minor GPU adaptations for solvers
+Stephane Popinet <popinet@basilisk.fr>**20241018142827
+ Ignore-this: 45884d67e7a29b24b62f4a21a2be29e3
+] 
+hash: 0000003646-efa85d8f628c9cabf8ca74e52f38188ffdbe062e84d2fca20c33d22518fca7c9
+[Better metrics for Laplacian speed benchmark
+Stephane Popinet <popinet@basilisk.fr>**20241018143303
+ Ignore-this: 9aa495887725d605dcf25586b617207d
+] 
+hash: 0000002065-eb0a46bdbcaa7b5da14654c2ab7ef2f74e9f9dbdb7fb730c93eef8286139624e
+[Early GPU hashing
+Stephane Popinet <popinet@basilisk.fr>**20241019105114
+ Ignore-this: ba7907ffa309c3c53bd65a97e94dabe
+] 
+hash: 0000036095-22fb8eb967f4d0fef838d2adec224b67be589f6e5c308bc0482fca9b1ee52783
+[Runtest reports errors and warnings at runtime
+Stephane Popinet <popinet@basilisk.fr>**20241019112707
+ Ignore-this: 4f1ec21578d07e2ac539e4b81beabfaf
+] 
+hash: 0000002144-3505fa07430a5a2ef780b48a4aa1c2867ec3e1bb18f1894d8d18bd069235f66e
+[Documentation for GPUs
+Stephane Popinet <popinet@basilisk.fr>**20241019121917
+ Ignore-this: bd6dbd1623eaeab1bb42c013a327d199
+] 
+hash: 0000013881-8afc37e80bf0d37f331d811fc244589a3a822bac40d452f9ffb0544294ca0c6b
+[GPU Benchmarks
+Stephane Popinet <popinet@basilisk.fr>**20241019182458
+ Ignore-this: 1efbc3a6f79d87ac481410218aeab973
+] 
+hash: 0000053539-290fed2f82d6ec448f443f5ad89d70bd17c5e82440b428e2734dd1d329a8124f
+[Updated references
+Stephane Popinet <popinet@basilisk.fr>**20241019184115
+ Ignore-this: 4e50fe27f6f0c2373f607bf3e8c5cc0a
+] 
+hash: 0000050236-21a8255737bcb137bf7b2fab07599274e8e0aefbb6b71bab617e085c71fc78cb
+[Benchmarks plots are generated automatically
+Stephane Popinet <popinet@basilisk.fr>**20241020084443
+ Ignore-this: 9f991979c0f92cff30aed9ddbae47b1b
+] 
+hash: 0000000310-cb1afab00af0d4d91df805dd1d87a534a90577f67948859b7f349c415e9606de
+[Disable floating-point exceptions on GPUs
+Stephane Popinet <popinet@basilisk.fr>**20241020085058
+ Ignore-this: ab85557dd5360276d2183327c5d71250
+ 
+ Because some graphic card drivers seem to generate FPEs.
+] 
+hash: 0000000518-28c020bee91eb0fbdafedec307d36a66dedb0d4bf8e21f3df8b4132666946c40
+[Improved GPU documentation
+Stephane Popinet <popinet@basilisk.fr>**20241020100243
+ Ignore-this: 99272c9df1345c1892ae3d8e8cac295f
+] 
+hash: 0000002858-42e6e7c317af2a9f32a651a24388c3426cdb76499ee83a6665f9d29c13535c01
+[Further documentation tweaks
+Stephane Popinet <popinet@basilisk.fr>**20241020103759
+ Ignore-this: da9feec4f83be2dddbbbc4a6c86fd7e5
+] 
+hash: 0000000642-b46519811dbe585d99bc0f38873d4be3f25e0aaa95a7dc9b68d7478fa97bf8e3
+[A bit more benchmark data
+Stephane Popinet <popinet@basilisk.fr>**20241020113328
+ Ignore-this: 33bcc0c892efae10b8c7c672a0118fb1
+] 
+hash: 0000005533-fd075df3ae08003a09857b616ee8ea09dd231c8b145fe81e639d1fcdbc8b2429

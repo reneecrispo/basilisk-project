@@ -1,0 +1,24 @@
+axi.gpu.s:	\
+	/root/basilisk-project/basilisk/src/axi.h \
+	/root/basilisk-project/basilisk/src/viscosity.h \
+	/root/basilisk-project/basilisk/src/run.h \
+	/root/basilisk-project/basilisk/src/utils.h \
+	/root/basilisk-project/basilisk/src/output.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/output.h \
+	/root/basilisk-project/basilisk/src/poisson.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/multigrid.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../multigrid.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/gpu.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../multigrid-common.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/grid.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/reduction.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../cartesian-common.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../events.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../fpe.h \
+	/root/basilisk-project/basilisk/src/khash.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../foreach_cell.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../neighbors.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../multigrid-common.h \
+	/root/basilisk-project/basilisk/src/grid/gpu/../multigrid-mpi.h \
+	/root/basilisk-project/basilisk/src/common.h \
+
