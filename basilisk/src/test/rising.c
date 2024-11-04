@@ -13,6 +13,7 @@ axisymmetric or planar version. We can used standard or "reduced"
 gravity. We also test levelset interface tracking and a momentum
 formulation. */
 
+
 #if AXIS
 # include "axi.h" // fixme: does not run with -catch
 #endif
@@ -38,8 +39,9 @@ formulation. */
 #endif
 
 #ifndef LEVEL
-# define LEVEL 8
+    # define LEVEL 8
 #endif
+
 
 /**
 The boundary conditions are slip lateral walls (the default) and
@@ -53,51 +55,61 @@ u.t[right] = dirichlet(0);
 u.t[left]  = dirichlet(0);
 #endif
 
-int main() {
 
-  /**
-  The domain will span $[0:2]\times[0:0.5]$ and will be resolved with
-  $256\times 64$ grid points. */
+int main() {
+  // Apri il file per scrivere i dati
+  FILE *dati_test = fopen("dati_test.txt", "w");
+  if (dati_test == NULL) {
+      perror("Errore nell'apertura del file");
+      return 1;
+  }
 
   size (2 [1]);
-  DT = 1. [0,1];
+  DT = 1. [0, 1];
   init_grid (1 << LEVEL);
-  
-  /**
-  Hysing et al. consider two cases (1 and 2), with the densities, dynamic
-  viscosities and surface tension of fluid 1 and 2 given below. */
 
-  rho1 = 1000.[0], mu1 = 10.;  // works also with rho1 = [-3,0,1]
-#if CASE2
+  rho1 = 1000.[0], mu1 = 10.; 
+  rho2 = 1., mu2 = 0.1;
+
+/*#ifdef CASE2 
   rho2 = 1., mu2 = 0.1;
 #else
-  rho2 = 100., mu2 = 1.;
-#endif
+  rho2 = 100., mu2 = 1.;  //100 e 1 
+#endif 
+*/
 
 #if LEVELSET
-  #if CASE2
+  const scalar sigma[] = 1.96;
+/*
+  #ifdef CASE2
   const scalar sigma[] = 1.96;
   #else
   const scalar sigma[] = 24.5;
   #endif
+  */
   d.sigmaf = sigma;
 #else // !LEVELSET
-  #if CASE2
+  f.sigma = 1.96;
+/*
+  #ifdef CASE2
   f.sigma = 1.96;
   #else
   f.sigma = 24.5;
   #endif
+  */
 #endif // !LEVELSET
-  
-  /**
-  We reduce the tolerance on the Poisson and viscous solvers to
-  improve the accuracy. */
-  
-  TOLERANCE = 1e-4 [*];
+
+  TOLERANCE = 1e-3 [*];
 #if REDUCED
   G.x = -0.98;
   Z.x = 1.;
 #endif
+
+fprintf(dati_test, "Eseguendo il test case 2: rho2 = %g, mu2 = %g, sigma = %g\n", rho2, mu2, f.sigma);
+
+  // Chiudi il file dopo aver scritto i dati
+  fclose(dati_test);
+  
   run();
 }
 
@@ -111,19 +123,20 @@ event init (t = 0) {
   /**
   The bubble is centered on (0.5,0) and has a radius of 0.25. */
 
-#if LEVELSET
-  foreach()
-    d[] = sqrt (sq(x - 0.5) + sq(y)) - 0.25;
-#else
-  fraction (f, sq(x - 0.5) + sq(y) - sq(0.25));
-#endif
+    #if LEVELSET
+    foreach()
+        d[] = sqrt (sq(x - 0.5) + sq(y)) - 0.25;
+    #else
+    fraction (f, sq(x - 0.5) + sq(y) - sq(0.25));
+    #endif
+
 }
 
 /**
 We add the acceleration of gravity. */
 
 #if !REDUCED
-event acceleration (i++) {
+event acceleration (i = 0, i < 691, i++) {
   face vector av = a;
   foreach_face(x)
     av.x[] -= 0.98;
@@ -147,7 +160,7 @@ We log the position of the center of mass of the bubble, its velocity
 and volume as well as convergence statistics for the multigrid
 solvers. */
 
-event logfile (i++) {
+event logfile (i = 0, i < 691, i++) {
   double xb = 0., vb = 0., sb = 0.;
   foreach(reduction(+:xb) reduction(+:vb) reduction(+:sb)) {
     double dv = (1. - f[])*dv();
@@ -182,11 +195,23 @@ event interface (t = 3.) {
   output_facets (f, stderr);
 }
 
+
 #if ADAPT
-event adapt (i++) {
-  adapt_wavelet ({f,u}, (double[]){5e-4,1e-3,1e-3}, LEVEL);
+event adapt (i = 0, i < 691, i++) {
+  adapt_wavelet({f,u}, (double[]){5e-4,1e-3,1e-3}, LEVEL);
 }
 #endif
+
+
+event image (i = 0, i < 691, i++) {
+  char filename[256];
+  sprintf (filename, "out%04d.ppm", i);
+  output_ppm (f, file=filename);
+}
+
+
+
+
 
 /**
 ## Results
@@ -203,13 +228,13 @@ set term push
 set term @SVG size 640,320
 set size ratio -1
 set grid
-plot [][0:0.4]'../c1g3l4s.txt' u 2:($1-0.5) w l t 'MooNMD', \
-              'log' u 1:2 w l t 'Basilisk', \
-              '../rising-levelset/log' u 1:2 w l t 'Basilisk (levelset)', \
-              '../rising-clsvof/log' u 1:2 w l t 'Basilisk (CLSVOF)', \
-              '../rising-axi/log' u 1:2 w l t 'Basilisk (axisymmetric)', \
-              '../rising-axi-clsvof/log' u 1:2 w l t 'Basilisk (axi + CLSVOF)', \
-              '../rising-axi-momentum/log' u 1:2 w l t 'Basilisk (axi + momentum)'
+plot [][0:0.4]'c1g3l4s.txt' u 2:($1-0.5) w l t 'MooNMD', \
+              'rising/log' u 1:2 w l t 'Basilisk', \
+              'rising-levelset' u 1:2 w l t 'Basilisk (levelset)', \
+              'rising-clsvof' u 1:2 w l t 'Basilisk (CLSVOF)', \
+              'rising-axi' u 1:2 w l t 'Basilisk (axisymmetric)', \
+              'rising-axi-clsvof' u 1:2 w l t 'Basilisk (axi + CLSVOF)', \
+              'rising-axi-momentum' u 1:2 w l t 'Basilisk (axi + momentum)'
 ~~~
 
 For test case 2, the mesh in Basilisk is too coarse to accurately
