@@ -1,4 +1,7 @@
 rising-clsvof.s:	\
+	/root/basilisk-project/basilisk/src/view.h \
+	/root/basilisk-project/basilisk/src/vof.h \
+	/root/basilisk-project/basilisk/src/draw.h \
 	/root/basilisk-project/basilisk/src/axi.h \
 	/root/basilisk-project/basilisk/src/momentum.h \
 	/root/basilisk-project/basilisk/src/navier-stokes/centered.h \
@@ -24,7 +27,6 @@ rising-clsvof.s:	\
 	/root/basilisk-project/basilisk/src/vof.h \
 	/root/basilisk-project/basilisk/src/two-phase-generic.h \
 	/root/basilisk-project/basilisk/src/fractions.h \
-	/root/basilisk-project/basilisk/src/fractions.h \
 	/root/basilisk-project/basilisk/src/tracer.h \
 	/root/basilisk-project/basilisk/src/two-phase-generic.h \
 	/root/basilisk-project/basilisk/src/redistance.h \
@@ -46,6 +48,19 @@ rising-clsvof.s:	\
 	/root/basilisk-project/basilisk/src/run.h \
 	/root/basilisk-project/basilisk/src/timestep.h \
 	/root/basilisk-project/basilisk/src/viscosity.h \
+	/root/basilisk-project/basilisk/src/fractions.h \
+	/root/basilisk-project/basilisk/src/gl/font.h \
+	/root/basilisk-project/basilisk/src/draw_json.h \
+	/root/basilisk-project/basilisk/src/gl/og_font.h \
+	/root/basilisk-project/basilisk/src/gl/tinygl.h \
+	/root/basilisk-project/basilisk/src/fractions.h \
+	/root/basilisk-project/basilisk/src/utils.h \
+	/root/basilisk-project/basilisk/src/input.h \
+	/root/basilisk-project/basilisk/src/vertexbuffer.h \
+	/root/basilisk-project/basilisk/src/draw.h \
+	/root/basilisk-project/basilisk/src/parse.h \
+	/root/basilisk-project/basilisk/src/draw_get.h \
+	/root/basilisk-project/basilisk/src/utils.h \
 	/root/basilisk-project/basilisk/src/grid/quadtree.h \
 	/root/basilisk-project/basilisk/src/grid/tree.h \
 	/root/basilisk-project/basilisk/src/grid/mempool.h \
