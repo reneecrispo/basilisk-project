@@ -1,2 +1,0 @@
-Executing test case 2: rho2 = 1, mu2 = 0.1, sigma = 1.96
-Adaptive mesh ON

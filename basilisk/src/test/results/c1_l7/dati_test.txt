@@ -1,0 +1,7 @@
+Executing test case 1: rho1 = 1000, mu1 = 10, rho2 = 100, mu2 = 1, sigma = 24.5, LEVEL = 2143.68
+Adaptive mesh ON
+
+Characteristic velocity 	 U = 0.193794
+Characteristic length 	 L = 0.5
+Reynolds number 	 Re = 9.6897
+Bond number 	 Bo = 100.102

@@ -1,0 +1,2 @@
+rising.c: In function ‘main’:
+rising.c:132:28: warning: format ‘%g’ expects argument of type ‘double’, but argument 8 has type ‘int’ [-Wformat=]

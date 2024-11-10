@@ -14,11 +14,13 @@ formulation.
 */
 
 #define ADAPT
-#define CASE2
+// #define CASE2
 
 #include "view.h"
 #include "vof.h"
 #include "draw.h"
+#include <math.h>
+#include <stdio.h>
 
 #if AXIS
     # include "axi.h" // fixme: does not run with -catch
@@ -45,7 +47,7 @@ formulation.
 #endif
 
 #ifndef LEVEL
-    # define LEVEL 6
+    # define LEVEL 7
 #endif
 
 
@@ -74,6 +76,8 @@ double skirt_width = 0.0;
 double sum = 0.0;
 int n_elem_vel = 0;
 
+double t_f = 3.; // final time
+
 int main() {
 
     size (2 [1]);
@@ -85,7 +89,7 @@ int main() {
     #ifdef CASE2 
         rho2 = 1., mu2 = 0.1;
     #else
-        rho2 = 100., mu2 = 1.;  
+        rho2 = 0.5, mu2 = 1.;  
     #endif 
 
     #if LEVELSET
@@ -111,48 +115,11 @@ int main() {
 
     run();
 
-/*
-    // Create and open the file to read
-    FILE *velocity_log = fopen("velocity_log.txt", "r");
-    if (velocity_log == NULL) {
-        perror("Error during opening of the file velocity_log.txt\n");
-        return 1;
-    }
-
-    // Characteristic values
-    double *velocities = NULL;
-    int count = 0;
-    double velocity;
-
-    // Scorri il file e leggi tutte le velocità
-    while (fscanf(velocity_log, "%*lf %lf", &velocity) == 1) {
-        velocities = realloc(velocities, (count + 1) * sizeof(double));
-        velocities[count++] = velocity;
-    }
-    fclose(velocity_log);
-
-    // Calcola l'indice di inizio dell'ultimo 5% dei dati
-    int start_index = count - (int)(0.05 * count);
-    double sum = 0.0;
-    int num_elements = count - start_index;
-
-    // Somma le velocità nell'ultimo 5%
-    for (int i = start_index; i < count; i++) {
-        sum += velocities[i];
-    }
-    
-    U = sum / num_elements;
-
-    free(velocities);
-
-    fclose(velocity_log);
-*/
-
     U = sum / n_elem_vel;
     L = 0.5; // diameter = 2 * radius = 2 * 0.25
 
     double Re = (rho1 * U * L) / mu1; // Reynolds number
-    double Bo = (rho1 * gr * sq(L)) / f.sigma; // Bond number
+    double Bo = (abs(rho1-rho2) * gr * sq(L)) / f.sigma; // Bond number
 
     // Create and open the file to write
     FILE *dati_test = fopen("dati_test.txt", "w");
@@ -162,9 +129,9 @@ int main() {
     }
 
     #ifdef CASE2
-        fprintf(dati_test, "Executing test case 2: rho1 = %g, mu1 = %g, rho2 = %g, mu2 = %g, sigma = %g\n", rho1, mu1, rho2, mu2, f.sigma);
+        fprintf(dati_test, "Executing test case 2: rho1 = %g, mu1 = %g, rho2 = %g, mu2 = %g, sigma = %g, LEVEL = %g\n", rho1, mu1, rho2, mu2, f.sigma, LEVEL);
     #else 
-        fprintf(dati_test, "Executing test case 1: rho1 = %g, mu1 = %g, rho2 = %g, mu2 = %g, sigma = %g\n", rho1, mu1, rho2, mu2, f.sigma);
+        fprintf(dati_test, "Executing test case 1: rho1 = %g, mu1 = %g, rho2 = %g, mu2 = %g, sigma = %g, LEVEL = %g\n", rho1, mu1, rho2, mu2, f.sigma, LEVEL);
     #endif
 
     #ifdef ADAPT
@@ -250,12 +217,22 @@ event logfile (i++) {
     }
 
     fprintf(velocity_log, "%g %g\n", t, vb/sb);
-    if(t >= 2.3) {
+    if(t >= t_f - t_f * 0.1) {
         sum += vb/sb;
         n_elem_vel++;
     }
 
     fclose(velocity_log);
+
+    FILE *center_of_mass_log = fopen("center_of_mass_log.txt", "a");
+    if (center_of_mass_log == NULL) {
+        perror("Error during opening of the file velocity_log.txt\n");
+        return 1;
+    }
+
+    fprintf(center_of_mass_log, "%g %g\n", t, xb/sb);
+
+    fclose(center_of_mass_log);
 
     #if !MOMENTUM
         mg_print (mgp);
@@ -269,13 +246,14 @@ event logfile (i++) {
 /*
 At $t=3$ we output the shape of the bubble. */
 
-event interface (t = 2.5) {
+event interface (t = t_f) {
     output_facets (f, stderr);
 }
 
 #ifdef ADAPT
 event adapt (i++) {
-    adapt_wavelet({f,u}, (double[]){5e-4,1e-3,1e-3}, LEVEL);
+  double uemax=1e-2;
+  adapt_wavelet ({f,u}, (double[]){0.0001,uemax,uemax},LEVEL);
 }
 #endif
 
@@ -288,7 +266,6 @@ event image (i++) {
 */
 
 
-#ifdef CASE2
 event skirt_width_log (i++) {
     double max_y = 0; 
     double max_x = 0;
@@ -307,13 +284,12 @@ event skirt_width_log (i++) {
 
     FILE *skirt_file = fopen("skirt_width_log.txt", "a"); 
     if (skirt_file != NULL) {
-        fprintf(skirt_file, "%g %g %g\n", t, skirt_width, skirt_position); // Tempo, larghezza, posizione
+        fprintf(skirt_file, "%g %g %g\n", t, skirt_width, skirt_position);
         fclose(skirt_file);
     } else {
         perror("Error during the opening of the file skirt_width_log.txt");
     }
 }
-#endif
 
 
 event movie (i++) {
@@ -324,10 +300,6 @@ event movie (i++) {
 
     squares ("f", linear = true); 
     draw_vof ("f", lw = 1.5);     
-
-    #ifdef CASE2
-        draw_line(skirt_position, -1.0, 1.0, 0.02, "red");
-    #endif
 
     mirror ({0, 1}) {
         draw_vof ("f", lw = 1.5);

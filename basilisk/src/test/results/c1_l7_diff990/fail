@@ -1,0 +1,1308 @@
+diff log rising.ref
+1,898c1,2
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 0.192088 sum: 223.696 nrelax: 99 tolerance: 0.121918
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.3952 sum: 310.851 nrelax: 100 tolerance: 5.00923
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 6.74376 sum: 325.113 nrelax: 100 tolerance: 3.30278
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.6599 sum: 562.854 nrelax: 100 tolerance: 2.52164
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 13.8818 sum: 1011.54 nrelax: 100 tolerance: 2.48492
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 47.2039 sum: 1265.89 nrelax: 100 tolerance: 21.1451
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 29.6266 sum: -2951.62 nrelax: 100 tolerance: 8.52884
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.7957 sum: 332.406 nrelax: 100 tolerance: 4.86062
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.587 sum: 449.465 nrelax: 100 tolerance: 3.28674
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.9281 sum: 530.459 nrelax: 100 tolerance: 2.46833
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.621 sum: 992.771 nrelax: 100 tolerance: 2.28557
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 36.0468 sum: -2785.22 nrelax: 100 tolerance: 22.8768
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.356 sum: -3079.35 nrelax: 100 tolerance: 10.2894
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.3601 sum: 486.422 nrelax: 100 tolerance: 6.21148
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.1221 sum: 63.0215 nrelax: 100 tolerance: 4.34798
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 9.42862 sum: 17.4893 nrelax: 100 tolerance: 3.32503
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 9.53263 sum: 716.497 nrelax: 100 tolerance: 2.728
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.3162 sum: 1064.14 nrelax: 100 tolerance: 19.9964
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.7251 sum: 406.889 nrelax: 100 tolerance: 10.5451
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.5588 sum: 901.062 nrelax: 100 tolerance: 6.81018
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 11.0189 sum: 688.664 nrelax: 100 tolerance: 4.93753
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.03487 sum: 581.438 nrelax: 100 tolerance: 3.8641
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 5.1675 sum: 840.719 nrelax: 100 tolerance: 3.18733
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 4.2859 sum: 779.607 nrelax: 100 tolerance: 2.7342
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 5.67041 sum: 338.562 nrelax: 100 tolerance: 2.46877
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.9388 sum: -88.1201 nrelax: 100 tolerance: 14.662
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.87394 sum: 653.465 nrelax: 100 tolerance: 6.70218
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.017 sum: 755.451 nrelax: 100 tolerance: 5.19127
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 6.75858 sum: 928.374 nrelax: 100 tolerance: 4.24157
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 6.15011 sum: 961.035 nrelax: 100 tolerance: 3.60547
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.62911 sum: 622.776 nrelax: 100 tolerance: 3.15723
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.11363 sum: 812.579 nrelax: 100 tolerance: 2.83035
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 4.98769 sum: 1103.68 nrelax: 100 tolerance: 2.82337
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.3596 sum: 1790.89 nrelax: 100 tolerance: 13.3005
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.8385 sum: 1205.78 nrelax: 100 tolerance: 9.24856
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 9.27936 sum: 1447.71 nrelax: 100 tolerance: 7.00153
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.6342 sum: 1548.38 nrelax: 100 tolerance: 5.61657
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.86748 sum: 1366.76 nrelax: 100 tolerance: 4.69902
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 6.9992 sum: 1147.79 nrelax: 100 tolerance: 4.05694
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 6.40718 sum: 971.187 nrelax: 100 tolerance: 3.59125
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 6.28262 sum: 694.99 nrelax: 100 tolerance: 3.37787
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.1361 sum: 1348.65 nrelax: 100 tolerance: 8.22355
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.5794 sum: 374.993 nrelax: 100 tolerance: 8.19655
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 9.20355 sum: 1184.55 nrelax: 100 tolerance: 7.60293
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.3496 sum: 764.192 nrelax: 100 tolerance: 6.88695
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 9.62887 sum: 1407.32 nrelax: 100 tolerance: 6.22347
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.5609 sum: 629.021 nrelax: 100 tolerance: 6.0708
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.9471 sum: 1365.44 nrelax: 100 tolerance: 6.3541
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.3938 sum: 945.258 nrelax: 100 tolerance: 8.76163
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 11.1534 sum: 1143.59 nrelax: 100 tolerance: 8.32668
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.4546 sum: 1152.29 nrelax: 100 tolerance: 7.34835
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.0566 sum: 1841.02 nrelax: 100 tolerance: 6.51497
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.9269 sum: 1192.42 nrelax: 100 tolerance: 5.9794
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.1201 sum: 1942.92 nrelax: 100 tolerance: 5.79317
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.5533 sum: 971.577 nrelax: 100 tolerance: 7.65752
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.5577 sum: 1404.32 nrelax: 100 tolerance: 7.58317
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.6554 sum: 769.024 nrelax: 100 tolerance: 7.20344
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 13.8001 sum: 1620.9 nrelax: 100 tolerance: 6.80221
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.0208 sum: 439.399 nrelax: 100 tolerance: 6.72483
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.9485 sum: 901.528 nrelax: 100 tolerance: 7.16719
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.0948 sum: 528.814 nrelax: 100 tolerance: 7.80541
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.6 sum: 827.105 nrelax: 100 tolerance: 7.57987
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.6731 sum: 685.445 nrelax: 100 tolerance: 7.11968
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 11.2007 sum: 710.06 nrelax: 100 tolerance: 6.66545
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.6209 sum: 836.846 nrelax: 100 tolerance: 6.64374
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.6128 sum: 972.529 nrelax: 100 tolerance: 7.16261
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.6898 sum: 30.2851 nrelax: 100 tolerance: 8.62713
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.0449 sum: 867.664 nrelax: 100 tolerance: 8.10402
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.4362 sum: 485.99 nrelax: 100 tolerance: 7.25882
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.4646 sum: 1331.02 nrelax: 100 tolerance: 6.53845
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.5634 sum: 1020.43 nrelax: 100 tolerance: 6.3728
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.4538 sum: 1350.96 nrelax: 100 tolerance: 6.20551
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 13.5925 sum: 808.911 nrelax: 100 tolerance: 7.05107
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.4605 sum: 1522.5 nrelax: 100 tolerance: 6.95745
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 13.9803 sum: 1531.11 nrelax: 100 tolerance: 6.89471
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.8343 sum: 1002.5 nrelax: 100 tolerance: 6.79862
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.4247 sum: 1572.61 nrelax: 100 tolerance: 11.4798
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.466 sum: 1584.67 nrelax: 100 tolerance: 10.3874
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.9597 sum: 901.32 nrelax: 100 tolerance: 7.99199
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.3329 sum: 1112.59 nrelax: 100 tolerance: 6.37428
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.0818 sum: 537.391 nrelax: 100 tolerance: 5.26938
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.6237 sum: 1057.38 nrelax: 100 tolerance: 4.68034
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.6976 sum: 892.745 nrelax: 100 tolerance: 4.64466
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.6059 sum: 1204.49 nrelax: 100 tolerance: 12.467
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.2172 sum: 740.297 nrelax: 100 tolerance: 10.8885
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.653 sum: 1392.41 nrelax: 100 tolerance: 8.04456
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.8833 sum: 1346.43 nrelax: 100 tolerance: 6.32005
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.7752 sum: 748.066 nrelax: 100 tolerance: 5.1869
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.001 sum: 777.97 nrelax: 100 tolerance: 4.76217
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.5861 sum: 2122.96 nrelax: 100 tolerance: 4.92562
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.9073 sum: 1320.19 nrelax: 100 tolerance: 9.83785
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.0759 sum: 2793.13 nrelax: 100 tolerance: 8.86279
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.8688 sum: 1276.12 nrelax: 100 tolerance: 7.48148
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.345 sum: 1716.77 nrelax: 100 tolerance: 6.51515
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.9005 sum: 2010.48 nrelax: 100 tolerance: 6.14965
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.7853 sum: 1700.72 nrelax: 100 tolerance: 6.12464
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.3457 sum: 1268.15 nrelax: 100 tolerance: 8.12181
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.7034 sum: 482.563 nrelax: 100 tolerance: 7.65449
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.8497 sum: 1140.54 nrelax: 100 tolerance: 7.10643
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.1498 sum: 798.913 nrelax: 100 tolerance: 6.61988
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.5308 sum: 838.622 nrelax: 100 tolerance: 7.68815
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.8644 sum: 427.588 nrelax: 100 tolerance: 7.30534
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.7449 sum: 617.673 nrelax: 100 tolerance: 6.93514
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.3515 sum: 340.116 nrelax: 100 tolerance: 6.67227
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.2924 sum: 520.666 nrelax: 100 tolerance: 6.47563
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.0818 sum: -15.308 nrelax: 100 tolerance: 6.33425
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.4669 sum: 609.661 nrelax: 100 tolerance: 12.7273
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.0909 sum: -1051.97 nrelax: 100 tolerance: 10.4049
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.686 sum: 597.372 nrelax: 100 tolerance: 7.77938
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.2886 sum: 743.158 nrelax: 100 tolerance: 6.18313
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.8752 sum: 1289.98 nrelax: 100 tolerance: 5.0756
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.1606 sum: 1014.41 nrelax: 100 tolerance: 4.59027
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.2999 sum: 2456.36 nrelax: 100 tolerance: 4.49432
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 8.47699 sum: 1028.66 nrelax: 100 tolerance: 7.1322
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 8.61661 sum: 1104.97 nrelax: 100 tolerance: 7.57951
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.61875 sum: 1080.73 nrelax: 100 tolerance: 5.74933
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.3749 sum: 941.756 nrelax: 100 tolerance: 4.61297
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 8.09325 sum: 701.786 nrelax: 100 tolerance: 3.85588
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 7.70872 sum: 1004.9 nrelax: 100 tolerance: 3.6097
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 10.6621 sum: 285.717 nrelax: 100 tolerance: 6.64455
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 11.932 sum: 1236.35 nrelax: 100 tolerance: 9.07808
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 11.2966 sum: -415.931 nrelax: 100 tolerance: 8.57688
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.1538 sum: 1857.88 nrelax: 100 tolerance: 7.66885
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 13.9388 sum: 1411.36 nrelax: 100 tolerance: 6.61798
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 12.9493 sum: 1404.9 nrelax: 100 tolerance: 6.00564
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 13.1904 sum: 1316.59 nrelax: 100 tolerance: 5.65617
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.2426 sum: 1150.46 nrelax: 100 tolerance: 10.4963
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.4895 sum: 871.862 nrelax: 100 tolerance: 9.33251
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.745 sum: 850.805 nrelax: 100 tolerance: 7.3607
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.5949 sum: 1298.38 nrelax: 100 tolerance: 6.06451
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.7262 sum: 1822.87 nrelax: 100 tolerance: 5.15361
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.4492 sum: 1201.09 nrelax: 100 tolerance: 4.79403
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.2242 sum: 2456.68 nrelax: 100 tolerance: 9.86281
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.9764 sum: -36.3775 nrelax: 100 tolerance: 8.85064
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.8912 sum: 1452.17 nrelax: 100 tolerance: 7.53753
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.1719 sum: 673.138 nrelax: 100 tolerance: 6.66941
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.2409 sum: 746.218 nrelax: 100 tolerance: 6.08208
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.9146 sum: 132.726 nrelax: 100 tolerance: 5.8664
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.8273 sum: 651.682 nrelax: 100 tolerance: 5.81484
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.0292 sum: -37.2197 nrelax: 100 tolerance: 6.34267
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.4735 sum: 822.778 nrelax: 100 tolerance: 12.0951
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.1826 sum: -593.264 nrelax: 100 tolerance: 9.61735
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.8528 sum: 1278.12 nrelax: 100 tolerance: 7.2006
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.3363 sum: 1272.9 nrelax: 100 tolerance: 5.95619
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.9619 sum: 1276.06 nrelax: 100 tolerance: 5.38602
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.5829 sum: 739.476 nrelax: 100 tolerance: 5.24892
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.615 sum: 1933.47 nrelax: 100 tolerance: 7.74233
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.6599 sum: -17.4439 nrelax: 100 tolerance: 7.29182
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.2737 sum: 1185.74 nrelax: 100 tolerance: 6.862
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.2678 sum: -194.852 nrelax: 100 tolerance: 6.43786
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.0589 sum: 856.307 nrelax: 100 tolerance: 6.82419
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.319 sum: 14.4086 nrelax: 100 tolerance: 6.497
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.7607 sum: 744.435 nrelax: 100 tolerance: 6.86905
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.8032 sum: -488.34 nrelax: 100 tolerance: 6.92827
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.3206 sum: 209.596 nrelax: 100 tolerance: 8.40928
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.5842 sum: 763.736 nrelax: 100 tolerance: 7.56335
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.5073 sum: 693.869 nrelax: 100 tolerance: 6.99661
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.7542 sum: 668.279 nrelax: 100 tolerance: 6.40231
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.9502 sum: 1355.93 nrelax: 100 tolerance: 6.35603
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.1752 sum: 581.45 nrelax: 100 tolerance: 6.20995
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.7785 sum: 959.488 nrelax: 100 tolerance: 10.3377
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.966 sum: 345.485 nrelax: 100 tolerance: 8.8061
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.7858 sum: 1139.04 nrelax: 100 tolerance: 7.1766
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.4362 sum: 1324.45 nrelax: 100 tolerance: 5.92231
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.1551 sum: 1438.8 nrelax: 100 tolerance: 5.34278
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.5277 sum: 831.752 nrelax: 100 tolerance: 5.20378
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 28.1261 sum: 1552.49 nrelax: 100 tolerance: 12.0417
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.0897 sum: 709.884 nrelax: 100 tolerance: 9.84622
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.3255 sum: 1208.91 nrelax: 100 tolerance: 7.4908
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.022 sum: 1253.08 nrelax: 100 tolerance: 6.07427
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.4129 sum: 1488.38 nrelax: 100 tolerance: 5.31523
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.156 sum: 1236.14 nrelax: 100 tolerance: 5.04716
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.6015 sum: 1913.28 nrelax: 100 tolerance: 6.1299
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.524 sum: 418.408 nrelax: 100 tolerance: 6.10708
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.5096 sum: 1084.69 nrelax: 100 tolerance: 10.2546
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.6597 sum: 338.075 nrelax: 100 tolerance: 8.49423
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.056 sum: 959.242 nrelax: 100 tolerance: 6.94639
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.4328 sum: 722.785 nrelax: 100 tolerance: 6.28313
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.2327 sum: 1159.37 nrelax: 100 tolerance: 6.11496
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.8959 sum: 513.989 nrelax: 100 tolerance: 6.96831
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.8689 sum: 532.358 nrelax: 100 tolerance: 7.50811
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.0105 sum: 193.279 nrelax: 100 tolerance: 6.98541
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.004 sum: 1052.93 nrelax: 100 tolerance: 6.59936
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.9194 sum: 354.661 nrelax: 100 tolerance: 6.18788
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.4813 sum: 1259.78 nrelax: 100 tolerance: 8.00642
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.1118 sum: -333.59 nrelax: 100 tolerance: 7.4182
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.4488 sum: 1109.23 nrelax: 100 tolerance: 6.98751
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.7476 sum: 656.616 nrelax: 100 tolerance: 6.80844
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.0938 sum: 967.623 nrelax: 100 tolerance: 7.41236
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.3238 sum: 223.034 nrelax: 100 tolerance: 7.17039
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.3325 sum: 863.578 nrelax: 100 tolerance: 6.92492
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.8303 sum: 594.363 nrelax: 100 tolerance: 6.40402
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.5896 sum: 716.95 nrelax: 100 tolerance: 6.20776
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.232 sum: 426.907 nrelax: 100 tolerance: 6.49672
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 31.284 sum: 1370.98 nrelax: 100 tolerance: 12.2391
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.004 sum: 806.447 nrelax: 100 tolerance: 9.04009
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.8896 sum: 1413.83 nrelax: 100 tolerance: 7.08944
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.7816 sum: 723.494 nrelax: 100 tolerance: 5.81882
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.6697 sum: 1281.61 nrelax: 100 tolerance: 4.94
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.4962 sum: 1139.23 nrelax: 100 tolerance: 4.58466
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.335 sum: 1170.86 nrelax: 100 tolerance: 5.36381
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.166 sum: 198.933 nrelax: 100 tolerance: 7.45237
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 30.3143 sum: 588.309 nrelax: 100 tolerance: 10.9251
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.1137 sum: -13.9005 nrelax: 100 tolerance: 9.3297
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.6938 sum: 1300.79 nrelax: 100 tolerance: 7.55688
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.2851 sum: 1187.34 nrelax: 100 tolerance: 6.54894
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.6296 sum: 1391.57 nrelax: 100 tolerance: 6.02934
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.42 sum: 825.364 nrelax: 100 tolerance: 5.75643
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.922 sum: 1564.97 nrelax: 100 tolerance: 6.22852
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.915 sum: 632.073 nrelax: 100 tolerance: 6.10101
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 28.6321 sum: 1535.75 nrelax: 100 tolerance: 7.99985
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.4132 sum: 768.432 nrelax: 100 tolerance: 7.36004
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.9428 sum: 1654.46 nrelax: 100 tolerance: 7.01355
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 26.0334 sum: 304.864 nrelax: 100 tolerance: 6.6955
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 26.1303 sum: 965.734 nrelax: 100 tolerance: 6.62176
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 30.3548 sum: 592.696 nrelax: 100 tolerance: 9.49598
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 30.6848 sum: 1069.92 nrelax: 100 tolerance: 9.15174
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 28.7974 sum: 866.93 nrelax: 100 tolerance: 7.76232
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 26.2005 sum: 1177.39 nrelax: 100 tolerance: 6.41115
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.994 sum: 263.629 nrelax: 100 tolerance: 5.3712
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.6568 sum: 1031.54 nrelax: 100 tolerance: 4.93419
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 22.036 sum: 344.538 nrelax: 100 tolerance: 4.89046
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 51.8953 sum: 1217.13 nrelax: 100 tolerance: 22.3374
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 39.2355 sum: -250.409 nrelax: 100 tolerance: 14.2703
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 35.8565 sum: 1372.65 nrelax: 100 tolerance: 10.2065
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 32.2304 sum: 1450.96 nrelax: 100 tolerance: 7.85035
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.9773 sum: 1339.66 nrelax: 100 tolerance: 6.35129
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.885 sum: 1321.34 nrelax: 100 tolerance: 5.33261
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.9913 sum: 1086.98 nrelax: 100 tolerance: 4.60615
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.7242 sum: 990.754 nrelax: 100 tolerance: 4.06808
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.2214 sum: 770.886 nrelax: 100 tolerance: 3.65723
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.483 sum: 1034.65 nrelax: 100 tolerance: 3.45192
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 48.0541 sum: 314.343 nrelax: 100 tolerance: 13.907
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 41.3724 sum: -13.6876 nrelax: 100 tolerance: 10.4236
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 35.0339 sum: 1381.26 nrelax: 100 tolerance: 7.99171
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 32.0447 sum: 1521.77 nrelax: 100 tolerance: 6.45094
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.5675 sum: 1604.77 nrelax: 100 tolerance: 5.40668
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 26.6399 sum: 1237.44 nrelax: 100 tolerance: 4.66356
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.7244 sum: 914.446 nrelax: 100 tolerance: 4.11391
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.4701 sum: 960.327 nrelax: 100 tolerance: 3.69486
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 40.3302 sum: 1436.15 nrelax: 100 tolerance: 9.44239
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 38.4212 sum: -634.066 nrelax: 100 tolerance: 8.49269
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 35.129 sum: 17.5058 nrelax: 100 tolerance: 7.03682
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 34.1306 sum: 1112.9 nrelax: 100 tolerance: 6.12801
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 30.3453 sum: 788.983 nrelax: 100 tolerance: 5.61335
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 31.2254 sum: 993.137 nrelax: 100 tolerance: 5.50315
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 37.0674 sum: 642.716 nrelax: 100 tolerance: 8.20125
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 36.4879 sum: 700.608 nrelax: 100 tolerance: 7.52198
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 34.5294 sum: 1055.31 nrelax: 100 tolerance: 6.9081
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 35.3749 sum: 990.004 nrelax: 100 tolerance: 6.35601
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 41.1552 sum: 1283.43 nrelax: 100 tolerance: 9.07766
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 41.0993 sum: 917.532 nrelax: 100 tolerance: 8.41755
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 38.0823 sum: 1781.57 nrelax: 100 tolerance: 7.42447
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 36.0342 sum: 1971.82 nrelax: 100 tolerance: 6.67941
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 30.2825 sum: 648.378 nrelax: 100 tolerance: 6.21768
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 30.2123 sum: 910.539 nrelax: 100 tolerance: 5.97595
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 30.9816 sum: 236.83 nrelax: 100 tolerance: 6.38098
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 30.7815 sum: 356.875 nrelax: 100 tolerance: 6.22099
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 35.4482 sum: -564.245 nrelax: 100 tolerance: 7.57021
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 35.9724 sum: -372.486 nrelax: 100 tolerance: 7.03324
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 36.5155 sum: -329.423 nrelax: 100 tolerance: 6.94963
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 34.5903 sum: -229.625 nrelax: 100 tolerance: 6.71571
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 32.8664 sum: -421.533 nrelax: 100 tolerance: 6.64987
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 38.1166 sum: -135.351 nrelax: 100 tolerance: 7.64567
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 42.3206 sum: 230.032 nrelax: 100 tolerance: 10.8507
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 41.6982 sum: 773.18 nrelax: 100 tolerance: 8.89183
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 36.6229 sum: 1645.38 nrelax: 100 tolerance: 6.99732
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 35.6483 sum: 1517.7 nrelax: 100 tolerance: 5.75466
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 31.7779 sum: 1035.81 nrelax: 100 tolerance: 4.89065
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 29.9396 sum: 1295.94 nrelax: 100 tolerance: 4.38968
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 33.5927 sum: 553.634 nrelax: 100 tolerance: 5.09426
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 42.2892 sum: 469.675 nrelax: 100 tolerance: 7.50997
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 53.8536 sum: 651.684 nrelax: 100 tolerance: 12.7252
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 48.7534 sum: 314.328 nrelax: 100 tolerance: 9.27449
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 42.07 sum: 1317.06 nrelax: 100 tolerance: 7.22248
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 40.3931 sum: 1019.6 nrelax: 100 tolerance: 5.89543
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 29.087 sum: 716.223 nrelax: 100 tolerance: 5.23504
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.1723 sum: 964.114 nrelax: 100 tolerance: 5.12186
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 33.8441 sum: 207.694 nrelax: 100 tolerance: 8.33867
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 31.7603 sum: 219.958 nrelax: 100 tolerance: 7.58532
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 29.1342 sum: 225.484 nrelax: 100 tolerance: 6.66823
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 29.3901 sum: 953.249 nrelax: 100 tolerance: 5.93946
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.8433 sum: 646.853 nrelax: 100 tolerance: 5.70372
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 28.9193 sum: -232.124 nrelax: 100 tolerance: 5.52977
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 50.4047 sum: -246.39 nrelax: 100 tolerance: 18.3513
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 44.4646 sum: -475.502 nrelax: 100 tolerance: 12.2166
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 36.2799 sum: 1471.63 nrelax: 100 tolerance: 8.96244
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 32.2943 sum: 1364.56 nrelax: 100 tolerance: 7.01333
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 28.7621 sum: 1456.85 nrelax: 100 tolerance: 5.7441
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.7638 sum: 1366.74 nrelax: 100 tolerance: 4.86685
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.2935 sum: 1140.39 nrelax: 100 tolerance: 4.23313
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.0414 sum: 1328.61 nrelax: 100 tolerance: 3.75906
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.4603 sum: 1432.46 nrelax: 100 tolerance: 3.39421
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.4437 sum: 1231.85 nrelax: 100 tolerance: 3.65534
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 40.0209 sum: 2913.58 nrelax: 100 tolerance: 23.0717
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 36.1584 sum: 755.024 nrelax: 100 tolerance: 14.4416
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 27.8706 sum: 1717.9 nrelax: 100 tolerance: 10.2
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.6663 sum: 1380.09 nrelax: 100 tolerance: 7.77837
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.3677 sum: 1212.57 nrelax: 100 tolerance: 6.25396
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.4498 sum: 1281.33 nrelax: 100 tolerance: 5.22645
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.3765 sum: 1270.69 nrelax: 100 tolerance: 4.49809
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.1643 sum: 759.323 nrelax: 100 tolerance: 3.96087
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.4569 sum: 834.341 nrelax: 100 tolerance: 3.55212
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.6903 sum: 959.135 nrelax: 100 tolerance: 3.48396
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 46.7109 sum: 159.318 nrelax: 100 tolerance: 27.305
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 34.4394 sum: -1764.11 nrelax: 100 tolerance: 16.2909
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 26.8141 sum: 891.912 nrelax: 100 tolerance: 11.184
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.7543 sum: 1034.39 nrelax: 100 tolerance: 8.37094
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.2936 sum: 570.06 nrelax: 100 tolerance: 6.64237
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.903 sum: 563.074 nrelax: 100 tolerance: 5.49767
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.8806 sum: 1291.71 nrelax: 100 tolerance: 4.6965
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.9192 sum: 1115.3 nrelax: 100 tolerance: 4.1115
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.6767 sum: 867.059 nrelax: 100 tolerance: 3.6699
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.4681 sum: 1158.2 nrelax: 100 tolerance: 3.36962
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 34.2729 sum: 1270.38 nrelax: 100 tolerance: 17.2261
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 29.9435 sum: -601.851 nrelax: 100 tolerance: 11.6743
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.3042 sum: 350.722 nrelax: 100 tolerance: 8.66455
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.5236 sum: 1085.89 nrelax: 100 tolerance: 6.83565
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.1599 sum: 1358.73 nrelax: 100 tolerance: 5.63405
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.6698 sum: 1679.26 nrelax: 100 tolerance: 4.79789
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.8106 sum: 1840.91 nrelax: 100 tolerance: 4.1901
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.0439 sum: 1648.45 nrelax: 100 tolerance: 3.73277
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.3577 sum: 1321.82 nrelax: 100 tolerance: 3.37929
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 14.6483 sum: 1223.96 nrelax: 100 tolerance: 3.10509
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.2053 sum: 2331.52 nrelax: 100 tolerance: 6.428
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 15.9559 sum: -639.493 nrelax: 100 tolerance: 6.36538
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.1674 sum: 169.321 nrelax: 100 tolerance: 7.03293
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.8352 sum: 430.847 nrelax: 100 tolerance: 6.67879
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.6775 sum: 678.084 nrelax: 100 tolerance: 6.61532
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.771 sum: 485.217 nrelax: 100 tolerance: 6.383
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.6323 sum: 1579.37 nrelax: 100 tolerance: 9.74144
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.383 sum: 1349.84 nrelax: 100 tolerance: 8.4092
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.0598 sum: 1267.66 nrelax: 100 tolerance: 7.03584
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.8497 sum: 1221.37 nrelax: 100 tolerance: 6.05196
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.6271 sum: 1051.52 nrelax: 100 tolerance: 5.59922
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 16.5038 sum: 188.915 nrelax: 100 tolerance: 5.42753
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.9843 sum: 254.342 nrelax: 100 tolerance: 7.76883
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.9523 sum: -222.267 nrelax: 100 tolerance: 7.08539
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.2876 sum: 491.721 nrelax: 100 tolerance: 6.5648
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.8696 sum: 342.643 nrelax: 100 tolerance: 6.08558
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.5551 sum: 238.751 nrelax: 100 tolerance: 6.76725
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.76 sum: 814.746 nrelax: 100 tolerance: 6.41661
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 24.22 sum: -171.215 nrelax: 100 tolerance: 8.90446
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.0594 sum: -340.162 nrelax: 100 tolerance: 8.51351
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 17.6586 sum: 941.016 nrelax: 100 tolerance: 7.69987
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.6615 sum: 1179.82 nrelax: 100 tolerance: 6.74612
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.5981 sum: 1044.32 nrelax: 100 tolerance: 6.05951
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.4856 sum: 885.936 nrelax: 100 tolerance: 5.62948
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 20.1151 sum: 622.613 nrelax: 100 tolerance: 5.54295
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 18.863 sum: 180.913 nrelax: 100 tolerance: 5.5307
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 34.0118 sum: 1534.42 nrelax: 100 tolerance: 16.3637
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 25.7594 sum: 876.55 nrelax: 100 tolerance: 11.2304
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 23.8798 sum: 1540.14 nrelax: 100 tolerance: 8.40209
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.1425 sum: 981.609 nrelax: 100 tolerance: 6.66552
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 21.0601 sum: 589.951 nrelax: 100 tolerance: 5.51594
+< 0.947019 0
+< 0.946919 0.015625
+< 
+< 0.946975 0.015625
+< 0.946561 0.03125
+< 
+< 0.94641 0.03125
+< 0.945872 0.046875
+< 
+< 0.946115 0.046875
+< 0.945271 0.0625
+< 
+< 0.944874 0.0625
+< 0.94403 0.078125
+< 
+< 0.94454 0.078125
+< 0.94347 0.09375
+< 
+< 0.942651 0.09375
+< 0.941969 0.109375
+< 
+< 0.942811 0.109375
+< 0.942472 0.125
+< 
+< 0.941523 0.125
+< 0.941743 0.140625
+< 
+< 0.942483 0.140625
+< 0.943681 0.15625
+< 
+< 0.943216 0.15625
+< 0.944841 0.171875
+< 
+< 0.945159 0.171875
+< 0.947504 0.1875
+< 
+< 0.947411 0.1875
+< 0.950026 0.203125
+< 
+< 0.950014 0.203125
+< 0.95311 0.21875
+< 
+< 0.953096 0.21875
+< 0.953125 0.218877
+< 
+< 0.953125 0.218794
+< 0.956708 0.234375
+< 
+< 0.956664 0.234375
+< 0.960835 0.25
+< 
+< 0.960821 0.25
+< 0.965683 0.265625
+< 
+< 0.965582 0.265625
+< 0.96875 0.274261
+< 
+< 0.96875 0.274096
+< 0.971374 0.28125
+< 
+< 0.971095 0.28125
+< 0.978332 0.296875
+< 
+< 0.977898 0.296875
+< 0.984375 0.306993
+< 
+< 0.984375 0.306849
+< 0.988091 0.3125
+< 
+< 0.987328 0.3125
+< 1 0.325522
+< 
+< 1.21875 0.235164
+< 1.20479 0.25
+< 
+< 1.23438 0.217145
+< 1.2331 0.21875
+< 
+< 1.25 0.196029
+< 1.24501 0.203125
+< 
+< 1.23438 0.216556
+< 1.24481 0.203125
+< 
+< 1.23275 0.21875
+< 1.21941 0.234375
+< 
+< 1.21875 0.234794
+< 1.21913 0.234375
+< 
+< 1 0.324831
+< 1.00516 0.328125
+< 
+< 1.00416 0.328125
+< 1.01562 0.335192
+< 
+< 1.01562 0.334584
+< 1.03125 0.339509
+< 
+< 1.03125 0.339313
+< 1.04688 0.340732
+< 
+< 1.04688 0.340586
+< 1.0625 0.339186
+< 
+< 1.0625 0.339105
+< 1.07812 0.335342
+< 
+< 1.07812 0.335192
+< 1.09375 0.329528
+< 
+< 1.10938 0.322284
+< 1.09683 0.328125
+< 
+< 1.09375 0.329414
+< 1.09652 0.328125
+< 
+< 1.10938 0.322132
+< 1.125 0.313486
+< 
+< 1.14062 0.303684
+< 1.12668 0.3125
+< 
+< 1.15625 0.292725
+< 1.15043 0.296875
+< 
+< 1.14062 0.303463
+< 1.14986 0.296875
+< 
+< 1.17188 0.280402
+< 1.17084 0.28125
+< 
+< 1.17188 0.280158
+< 1.1875 0.266581
+< 
+< 1.15625 0.292437
+< 1.17042 0.28125
+< 
+< 1.125 0.313329
+< 1.12637 0.3125
+< 
+< 1.20312 0.251669
+< 1.18856 0.265625
+< 
+< 1.1875 0.266407
+< 1.18835 0.265625
+< 
+< 1.20312 0.25141
+< 1.20452 0.25
+< 
+< 1.3125 0.0349707
+< 1.31102 0.046875
+< 
+< 1.31104 0.046875
+< 1.30826 0.0625
+< 
+< 1.30821 0.0625
+< 1.30465 0.078125
+< 
+< 1.30466 0.078125
+< 1.3004 0.09375
+< 
+< 1.29688 0.104905
+< 1.29542 0.109375
+< 
+< 1.29534 0.109375
+< 1.28932 0.125
+< 
+< 1.29688 0.104642
+< 1.30043 0.09375
+< 
+< 1.3147 0
+< 1.31315 0.03125
+< 
+< 1.3125 0.034423
+< 1.31298 0.03125
+< 
+< 1.28125 0.143028
+< 1.27458 0.15625
+< 
+< 1.26562 0.172031
+< 1.25586 0.1875
+< 
+< 1.27454 0.15625
+< 1.26568 0.171875
+< 
+< 1.28933 0.125
+< 1.28242 0.140625
+---
+> 0.914596 0
+> 0.914608 0.0078125
+900,901c4,5
+< 1.28125 0.142872
+< 1.28238 0.140625
+---
+> 0.914608 0.0078125
+> 0.914646 0.015625
+903,904c7,398
+< 1.25 0.195685
+< 1.25574 0.1875
+---
+> 0.914646 0.015625
+> 0.914709 0.0234375
+> 
+> 0.914709 0.0234375
+> 0.914799 0.03125
+> 
+> 0.914799 0.03125
+> 0.914914 0.0390625
+> 
+> 0.914914 0.0390625
+> 0.915057 0.046875
+> 
+> 0.915057 0.046875
+> 0.915228 0.0546875
+> 
+> 0.915227 0.0546875
+> 0.915427 0.0625
+> 
+> 0.915427 0.0625
+> 0.915657 0.0703125
+> 
+> 0.915657 0.0703125
+> 0.915918 0.078125
+> 
+> 0.915918 0.078125
+> 0.916213 0.0859375
+> 
+> 0.916213 0.0859375
+> 0.916543 0.09375
+> 
+> 0.916542 0.09375
+> 0.916909 0.101562
+> 
+> 0.916909 0.101562
+> 0.917315 0.109375
+> 
+> 0.917315 0.109375
+> 0.917763 0.117188
+> 
+> 0.917762 0.117188
+> 0.918256 0.125
+> 
+> 0.918255 0.125
+> 0.918797 0.132812
+> 
+> 0.918796 0.132812
+> 0.919389 0.140625
+> 
+> 0.919388 0.140625
+> 0.920037 0.148438
+> 
+> 0.920036 0.148438
+> 0.920745 0.15625
+> 
+> 0.920744 0.15625
+> 0.921519 0.164062
+> 
+> 0.921516 0.164062
+> 0.921875 0.167374
+> 
+> 0.921875 0.167361
+> 0.922364 0.171875
+> 
+> 0.922362 0.171875
+> 0.923286 0.179688
+> 
+> 0.923284 0.179688
+> 0.924293 0.1875
+> 
+> 0.924291 0.1875
+> 0.925393 0.195312
+> 
+> 0.92539 0.195312
+> 0.926592 0.203125
+> 
+> 0.92659 0.203125
+> 0.927902 0.210938
+> 
+> 0.927898 0.210938
+> 0.929335 0.21875
+> 
+> 0.929324 0.21875
+> 0.929688 0.220546
+> 
+> 0.929688 0.220501
+> 0.930912 0.226562
+> 
+> 0.930907 0.226562
+> 0.932641 0.234375
+> 
+> 0.932637 0.234375
+> 0.934542 0.242188
+> 
+> 0.934534 0.242188
+> 0.936635 0.25
+> 
+> 0.936613 0.25
+> 0.9375 0.252973
+> 
+> 0.9375 0.252899
+> 0.938966 0.257812
+> 
+> 0.938953 0.257812
+> 0.941542 0.265625
+> 
+> 0.941525 0.265625
+> 0.944414 0.273438
+> 
+> 0.944358 0.273438
+> 0.945312 0.275732
+> 
+> 0.945312 0.275587
+> 0.947669 0.28125
+> 
+> 0.94763 0.28125
+> 0.95131 0.289062
+> 
+> 0.951233 0.289062
+> 0.953125 0.292574
+> 
+> 0.953125 0.292419
+> 0.955526 0.296875
+> 
+> 0.955437 0.296875
+> 0.960341 0.304688
+> 
+> 0.96016 0.304688
+> 0.960938 0.305819
+> 
+> 0.960938 0.30553
+> 0.966116 0.3125
+> 
+> 0.965987 0.3125
+> 0.96875 0.315791
+> 
+> 0.96875 0.31557
+> 0.973129 0.320312
+> 
+> 0.972917 0.320312
+> 0.976562 0.323758
+> 
+> 0.976562 0.323592
+> 0.982261 0.328125
+> 
+> 0.981719 0.328125
+> 0.984375 0.330052
+> 
+> 0.984375 0.329819
+> 0.992188 0.334615
+> 
+> 0.992188 0.33454
+> 0.995246 0.335938
+> 
+> 0.995012 0.335938
+> 1 0.338216
+> 
+> 1.1875 0.243518
+> 1.18172 0.25
+> 
+> 1.25 0.149077
+> 1.24652 0.15625
+> 
+> 1.23438 0.178748
+> 1.23384 0.179688
+> 
+> 1.2338 0.179688
+> 1.22909 0.1875
+> 
+> 1.24219 0.164664
+> 1.23827 0.171875
+> 
+> 1.24652 0.15625
+> 1.24251 0.164062
+> 
+> 1.24219 0.164653
+> 1.24251 0.164062
+> 
+> 1.23438 0.178656
+> 1.23826 0.171875
+> 
+> 1.21094 0.21435
+> 1.20769 0.21875
+> 
+> 1.21875 0.203355
+> 1.21343 0.210938
+> 
+> 1.21094 0.214312
+> 1.21339 0.210938
+> 
+> 1.20312 0.224705
+> 1.20169 0.226562
+> 
+> 1.19531 0.234367
+> 1.20163 0.226562
+> 
+> 1.19531 0.234382
+> 1.18868 0.242188
+> 
+> 1.1875 0.243498
+> 1.18865 0.242188
+> 
+> 1.20312 0.224606
+> 1.20765 0.21875
+> 
+> 1.22656 0.191498
+> 1.22414 0.195312
+> 
+> 1.22411 0.195312
+> 1.2189 0.203125
+> 
+> 1.22656 0.191433
+> 1.22906 0.1875
+> 
+> 1.21875 0.203339
+> 1.2189 0.203125
+> 
+> 1 0.338115
+> 1.00781 0.340592
+> 
+> 1.00781 0.340559
+> 1.01562 0.342131
+> 
+> 1.01562 0.342116
+> 1.02344 0.342881
+> 
+> 1.02344 0.342868
+> 1.03125 0.342883
+> 
+> 1.03125 0.342868
+> 1.03906 0.34219
+> 
+> 1.03906 0.342176
+> 1.04688 0.340863
+> 
+> 1.04688 0.340848
+> 1.05469 0.338959
+> 
+> 1.05469 0.338941
+> 1.0625 0.33654
+> 
+> 1.11719 0.307407
+> 1.10968 0.3125
+> 
+> 1.125 0.301783
+> 1.12099 0.304688
+> 
+> 1.11719 0.307356
+> 1.1209 0.304688
+> 
+> 1.07031 0.333649
+> 1.06415 0.335938
+> 
+> 1.0625 0.336555
+> 1.06416 0.335938
+> 
+> 1.07031 0.333624
+> 1.07812 0.330257
+> 
+> 1.08594 0.326498
+> 1.08259 0.328125
+> 
+> 1.08594 0.326449
+> 1.09375 0.322251
+> 
+> 1.07812 0.33024
+> 1.08248 0.328125
+> 
+> 1.10156 0.317698
+> 1.09711 0.320312
+> 
+> 1.09375 0.32223
+> 1.09701 0.320312
+> 
+> 1.10156 0.317648
+> 1.10938 0.312692
+> 
+> 1.10938 0.312702
+> 1.10968 0.3125
+> 
+> 1.15625 0.275655
+> 1.15005 0.28125
+> 
+> 1.13281 0.295832
+> 1.13147 0.296875
+> 
+> 1.13281 0.29572
+> 1.14062 0.289372
+> 
+> 1.125 0.301714
+> 1.13128 0.296875
+> 
+> 1.14844 0.282691
+> 1.14099 0.289062
+> 
+> 1.14062 0.289374
+> 1.141 0.289062
+> 
+> 1.14844 0.282648
+> 1.15002 0.28125
+> 
+> 1.17188 0.260414
+> 1.16671 0.265625
+> 
+> 1.16406 0.268254
+> 1.15859 0.273438
+> 
+> 1.15625 0.275582
+> 1.15855 0.273438
+> 
+> 1.16406 0.268178
+> 1.16666 0.265625
+> 
+> 1.17969 0.252161
+> 1.17442 0.257812
+> 
+> 1.17188 0.260377
+> 1.17435 0.257812
+> 
+> 1.17969 0.252156
+> 1.18167 0.25
+> 
+> 1.28125 0.0437463
+> 1.28085 0.046875
+> 
+> 1.28085 0.046875
+> 1.27966 0.0546875
+> 
+> 1.27966 0.0546875
+> 1.27828 0.0625
+> 
+> 1.28412 0
+> 1.28403 0.0078125
+> 
+> 1.28403 0.0078125
+> 1.28376 0.015625
+> 
+> 1.28376 0.015625
+> 1.2833 0.0234375
+> 
+> 1.2833 0.0234375
+> 1.28267 0.03125
+> 
+> 1.28267 0.03125
+> 1.28185 0.0390625
+> 
+> 1.28125 0.0437237
+> 1.28185 0.0390625
+> 
+> 1.27828 0.0625
+> 1.27672 0.0703125
+> 
+> 1.27672 0.0703125
+> 1.27496 0.078125
+> 
+> 1.27344 0.0843141
+> 1.27303 0.0859375
+> 
+> 1.27303 0.0859375
+> 1.27089 0.09375
+> 
+> 1.27344 0.084267
+> 1.27496 0.078125
+> 
+> 1.26562 0.110544
+> 1.2633 0.117188
+> 
+> 1.2633 0.117188
+> 1.26036 0.125
+> 
+> 1.27089 0.09375
+> 1.26856 0.101562
+> 
+> 1.26856 0.101562
+> 1.26603 0.109375
+> 
+> 1.26562 0.110526
+> 1.26603 0.109375
+> 
+> 1.25781 0.1314
+> 1.25724 0.132812
+> 
+> 1.25723 0.132812
+> 1.25387 0.140625
+> 
+> 1.25781 0.131334
+> 1.26036 0.125
+> 
+> 1.25387 0.140625
+> 1.2503 0.148438
+> 
+> 1.25 0.149065
+> 1.2503 0.148438
+906,907d399
+< WARNING: convergence for pf not reached after 100 iterations
+<   res: 19.0146 sum: 1523.06 nrelax: 100 tolerance: 4.71207
